@@ -189,7 +189,10 @@ module BP3D.Core {
       return false;
     }
 
-    /** */
+    /** 
+     * Clockwise and Anitclockwise alogrithm to check for intersections
+     * 
+    */
     static lineLineIntersect(x1: number, y1: number, x2: number, y2: number, x3: number, y3: number, x4: number, y4: number): boolean {
       function tCCW(p1, p2, p3) {
         var tA = p1.x,

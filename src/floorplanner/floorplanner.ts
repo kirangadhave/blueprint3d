@@ -85,7 +85,7 @@ module BP3D.Floorplanner {
       this.view = new FloorplannerView(this.floorplan, this, canvas);
 
       var cmPerFoot = 30.48;
-      var pixelsPerFoot = 15.0;
+      var pixelsPerFoot = 10.0;
       this.cmPerPixel = cmPerFoot * (1.0 / pixelsPerFoot);
       this.pixelsPerCm = 1.0 / this.cmPerPixel;
 

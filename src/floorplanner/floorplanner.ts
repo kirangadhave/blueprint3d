@@ -90,7 +90,7 @@ module BP3D.Floorplanner {
       this.pixelsPerCm = 1.0 / this.cmPerPixel;
 
       this.wallWidth = 10.0 * this.pixelsPerCm;
-
+ 
       // Initialization:
 
       this.setMode(floorplannerModes.MOVE);

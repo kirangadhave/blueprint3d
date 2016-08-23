@@ -166,7 +166,9 @@ module BP3D.Core {
       return false;
     }
 
-    /** Corners is an array of points with x,y attributes */
+    /** Corners is an array of points with x,y attributes 
+     * x1, y1, x2, y2 define the lines. 
+    */
     static linePolygonIntersect(x1: number, y1: number, x2: number, y2: number, corners): boolean {
       for (var tI = 0; tI < corners.length; tI++) {
         var tFirstCorner = corners[tI],
